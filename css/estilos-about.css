@@ -1,0 +1,151 @@
+/*CONTENIDO QUIENES SOMOS*/
+
+
+/*GENERAL*/
+
+body{
+font-family: sans-serif;
+}
+
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*HEADER*/
+
+.header .top-header{
+  max-height: 406px;
+  padding: 1px 0;
+  font-size: 12px
+  border-bottom: 1px solid #f0f0f0;
+  background: #b52735;
+}
+
+.header .top-header .contenedor .top-menu{
+  float: left;
+}
+.header .top-header .contenedor .top-menu ul{
+  list-style: none;
+}
+.header .top-header .contenedor .top-menu ul li{
+  float: left;
+}
+.header .top-header .contenedor .top-menu ul li a{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  display: inline-block;
+}
+.header .top-header .contenedor .top-menu img{
+  width: 100%;
+}
+
+/*MARCA*/
+
+.marca{
+  margin: 35px 0;
+  text-align: center;
+}
+
+.marca .contenedor h1 a{
+  text-decoration: none;
+  color: #363940;
+  font-size: 60px;
+  display: inline-block;
+  padding: 30px 0;
+  font-weight: 400;
+}
+
+@media (max-width:768px){
+  .marca .contenedor h1 a {
+    font-size: 40px;
+  }
+}
+
+@media (max-width:400px){
+  .marca .contenedor h1 a{
+    font-size: 20px;
+  }
+}
+
+.menu-principal{
+  margin-bottom: 50px;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.menu-principal .contenedor ul{
+  list-style:none;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.menu-principal .contenedor ul li{
+  display: inline-block;
+}
+
+.menu-principal .contenedor ul li a{
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #363940;
+}
+
+.quienes-somos{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background: #b52735;
+  padding: 40px 0px;
+  border: 1px #f0f0f0;
+  text-align: center;
+  color: #ffffff;
+  border-bottom: 20px solid #f0f0f0;
+}
+
+.main .banner{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.main .banner .contenedor .banner-principal{
+  width: 100%;
+}
+
+.main .banner .contenedor .banner-principal img{
+  width: 100%;
+}
+
+.quienes-somos p{
+  font-size: 16px;
+}
+
+@media (max-width:768px){
+  .quienes-somos p{
+    font-size: 14px;
+  }
+}
+
+@media (max-width:400px){
+  .quienes-somos p{
+    font-size: 12px;
+  }
+}
+
+/*FOOTER*/
+
+.footer{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background: #b52735;
+  padding: 40px 0px;
+  border: 1px #f0f0f0;
+  text-align: center;
+  color: #ffffff;
+}
